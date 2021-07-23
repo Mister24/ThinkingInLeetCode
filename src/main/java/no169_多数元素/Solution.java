@@ -17,7 +17,7 @@ public class Solution {
     }
 
     /**
-     * 找出多数元素
+     * 找出多数元素(出现次数)
      *
      * @param nums 数组
      * @return 多数元素
