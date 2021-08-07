@@ -5,6 +5,8 @@
 package no169_多数元素;
 
 /**
+ * 多数元素
+ *
  * @author mr.24
  * @version Id: Solution, v 1.0 2021/7/20 12:15 上午 Exp $$
  */
