@@ -13,6 +13,9 @@ import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;
  */
 public class Solution {
     public static void main(String[] args) {
+        System.out.println(countAndSay(1));
+        System.out.println(countAndSay(2));
+        System.out.println(countAndSay(3));
         System.out.println(countAndSay(4));
     }
 
@@ -39,12 +42,14 @@ public class Solution {
             if (j == len) {
                 str = str + String.valueOf(j - i) + former.charAt(i);
             }
-            if (former.indexOf(j) == former.charAt(j - 1)) {
+
+            if (former.charAt(i) == former.charAt(j)) {
+                //
                 j++;
             } else {
                 str = str + String.valueOf(j - i) + former.charAt(i);
-                i++;
-                j = i + 1;
+                i = j;
+                j++;
             }
         }
 
