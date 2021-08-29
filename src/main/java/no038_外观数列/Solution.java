@@ -13,8 +13,7 @@ import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;
  */
 public class Solution {
     public static void main(String[] args) {
-
-
+        System.out.println(countAndSay(4));
     }
 
     /**
@@ -23,17 +22,34 @@ public class Solution {
      * @param n
      * @return
      */
-    public String countAndSay(int n) {
-        String res = null;
-        if (String.valueOf(n).length() == 1) {
+    public static String countAndSay(int n) {
+        String str = "";
+        if (1 == n) {
             return String.valueOf(n);
         }
 
         String former = countAndSay(n - 1);
         int i = 0, j = 1, len = former.length();
-        while (j < len) 「
-        」
+        while (j < len) {
+            if (i == len) {
+                str = str + "1" + former.charAt(len - 1);
+                break;
+            }
 
-        return res;
+            if (j == len) {
+                str = str + String.valueOf(j - i) + former.charAt(i);
+            }
+            if (former.indexOf(j) == former.charAt(j - 1)) {
+                j++;
+            } else {
+                str = str + String.valueOf(j - i) + former.charAt(i);
+                i++;
+                j = i + 1;
+            }
+        }
+
+        str = str + (j -i) + former.charAt(i);
+
+        return str;
     }
 }
