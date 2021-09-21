@@ -19,7 +19,7 @@ public class Solution {
     }
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode startNode = new ListNode(0,head);
+        ListNode startNode = new ListNode(0, head);
         Stack<ListNode> stack = new Stack<>();
         ListNode cur = startNode;
         while (null != cur) {
