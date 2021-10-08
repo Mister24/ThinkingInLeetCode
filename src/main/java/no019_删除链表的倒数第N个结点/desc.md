@@ -2,7 +2,7 @@
 
 进阶：你能尝试使用一趟扫描实现吗？
 
- ![](/Users/mr.24/antFin/codeTrunk/ThinkingInLeetCode/src/main/resources/pics/no019.png)
+![](/Users/mr.24/antFin/codeTrunk/ThinkingInLeetCode/src/main/resources/pics/no019.png)
 
 示例 1：
 
