@@ -1,5 +1,7 @@
 记录个人leetcode刷题过程
 
+第8题：feature(20 有效的括号 easy): https://leetcode-cn.com/problems/valid-parentheses/ 2021/10/08, 3:18 下午
+
 第7题：feature(19 删除链表的倒数第N个结点 medium): https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/ 2021/9/21, 9:25 上午
 
 第6题：feature(26 删除有序数组中的重复项目 easy): https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/ Mister24 2021/9/20, 11:20 下午
