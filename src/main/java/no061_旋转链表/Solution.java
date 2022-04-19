@@ -29,6 +29,8 @@ public class Solution {
 
 
     public static ListNode rotateRight(ListNode head, int k) {
+        ListNode end = null;
+        ListNode start = null;
         Queue queue = new ArrayDeque();
         ListNode prePart = new ListNode();
         prePart.next = head;
