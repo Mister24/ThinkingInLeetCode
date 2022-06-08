@@ -1,4 +1,4 @@
-package no007_整数反转;
+package leetcode.no007_整数反转;
 
 import java.util.Stack;
 

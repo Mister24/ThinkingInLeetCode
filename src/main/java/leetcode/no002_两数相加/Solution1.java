@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no002_两数相加;
+package leetcode.no002_两数相加;
 
 /**
  * @author mr.24

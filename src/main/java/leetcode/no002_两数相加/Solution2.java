@@ -1,4 +1,4 @@
-package no002_两数相加;
+package leetcode.no002_两数相加;
 
 public class Solution2 {
     public static void main(String[] args) {

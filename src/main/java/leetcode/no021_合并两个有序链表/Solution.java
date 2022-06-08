@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no021_合并两个有序链表;
+package leetcode.no021_合并两个有序链表;
 
 /**
  * @author mr.24

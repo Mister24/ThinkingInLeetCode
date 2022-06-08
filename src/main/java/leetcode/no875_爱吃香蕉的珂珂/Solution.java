@@ -1,4 +1,4 @@
-package no875_爱吃香蕉的珂珂;
+package leetcode.no875_爱吃香蕉的珂珂;
 
 import java.util.Arrays;
 

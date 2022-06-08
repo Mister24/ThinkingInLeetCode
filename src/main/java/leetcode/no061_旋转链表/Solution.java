@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no061_旋转链表;
+package leetcode.no061_旋转链表;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

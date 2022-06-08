@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no026_删除有序数组中的重复项;
+package leetcode.no026_删除有序数组中的重复项;
 
 /**
  * @author mr.24

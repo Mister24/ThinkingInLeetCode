@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no169_多数元素;
+package leetcode.no169_多数元素;
 
 /**
  * 多数元素

@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no038_外观数列;
+package leetcode.no038_外观数列;
 
 import com.sun.tools.javac.util.StringUtils;
 import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;

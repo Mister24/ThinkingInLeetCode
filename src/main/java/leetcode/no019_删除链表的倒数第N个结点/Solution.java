@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no019_删除链表的倒数第N个结点;
+package leetcode.no019_删除链表的倒数第N个结点;
 
 import java.util.Deque;
 import java.util.Stack;

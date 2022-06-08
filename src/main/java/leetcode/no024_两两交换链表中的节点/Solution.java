@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no024_两两交换链表中的节点;
+package leetcode.no024_两两交换链表中的节点;
 
 /**
  * @author mr.24

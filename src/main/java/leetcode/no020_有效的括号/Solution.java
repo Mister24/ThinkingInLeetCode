@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package no020_有效的括号;
+package leetcode.no020_有效的括号;
 
 import com.sun.tracing.dtrace.Attributes;
 
