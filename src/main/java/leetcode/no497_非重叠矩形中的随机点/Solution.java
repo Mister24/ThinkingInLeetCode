@@ -1,13 +1,11 @@
 package leetcode.no497_非重叠矩形中的随机点;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Solution {
+    
     public static void main(String[] args) {
-
+        System.out.println();
     }
-
+    
     public Solution(int[][] rects) {
         // 用下标记录每个块包含的点数
         int[] pointCount = new int[rects.length];
@@ -19,8 +17,12 @@ public class Solution {
 
         // 然后在rect内随机一个
     }
-
+    
+    /**
+     *
+     * @return
+     */
     public int[] pick() {
-
+        return null;
     }
 }
