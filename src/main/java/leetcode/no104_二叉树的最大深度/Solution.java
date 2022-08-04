@@ -1,4 +1,4 @@
-package leetcode104_二叉树的最大深度;
+package leetcode.no104_二叉树的最大深度;
 
 class Solution {
     
