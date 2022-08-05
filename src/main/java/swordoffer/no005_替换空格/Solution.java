@@ -3,7 +3,7 @@ package swordoffer.no005_替换空格;
 class Solution {
     
     public static void main(String[] args) {
-        System.out.println(replaceSpace("We are happy." * 100));
+        System.out.println(replaceSpace("We are happy."));
     }
     
     public static String replaceSpace(String s) {
