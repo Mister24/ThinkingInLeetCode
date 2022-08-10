@@ -21,7 +21,7 @@ class Solution {
         
         String removeSpaceString = stringBuilder.toString();
         
-        if (removeSpaceString == null || removeSpaceString.length() == 0) {
+        if (removeSpaceString.length() == 0) {
             return true;
         }
         
