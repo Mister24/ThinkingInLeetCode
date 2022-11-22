@@ -1,4 +1,4 @@
-package leetcode.no0171_Excel表列序号;
+package leetcode.no171_Excel表列序号;
 
 class Solution {
     
