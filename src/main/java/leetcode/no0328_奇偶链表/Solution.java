@@ -53,16 +53,17 @@ class Solution {
         File folder = new File(path);
         if (folder.exists() && folder.isDirectory()) {
             File[] files = folder.listFiles();
-            for (int i = 0; i < files.length; i++) {
-                //                if (files[i].isFile()) {
-                try {
-                    renameFile(files[i]);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                
-                //                }
-            }
+            System.out.println(files.length);
+//            for (int i = 0; i < files.length; i++) {
+//                //                if (files[i].isFile()) {
+//                try {
+//                    renameFile(files[i]);
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//
+//                //                }
+//            }
         }
     }
 }
